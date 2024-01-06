@@ -1,0 +1,69 @@
+body{
+    padding: 3% 7% ;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7vh;
+
+}
+
+.a{
+    font-size: 1.5rem;
+}
+
+.Quiz{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#webQuiz{
+    font-size: 3rem;
+    margin-bottom: 15vh;
+}
+
+.ques{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.Quiz{
+    margin-bottom: 15vh;
+}
+
+.optgrid{
+    display: grid;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+}
+
+.options{
+    background-color: white;
+    color: black;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
